@@ -8,10 +8,10 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - gRPC
-  - REST
   - API Client
   - Developer Tools
+  - gRPC
+  - REST
 url: >-
   https://raw.githubusercontent.com/api-evangelist/kreya/refs/heads/main/apis.yml
 created: '2026-03-16'
@@ -25,9 +25,9 @@ apis:
       for environments, authorizations, and more.
     humanURL: https://kreya.app/
     tags:
+      - API Client
       - gRPC
       - REST
-      - API Client
     properties:
       - type: Documentation
         url: https://kreya.app/docs/
