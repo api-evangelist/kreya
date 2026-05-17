@@ -31,14 +31,14 @@ apis:
     properties:
       - type: Documentation
         url: https://kreya.app/docs/
-      - type: Getting Started
+      - type: GettingStarted
         url: https://kreya.app/docs/getting-started/
 common:
   - type: Website
     url: https://kreya.app/
   - type: Documentation
     url: https://kreya.app/docs/
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/riok/Kreya
   - type: Blog
     url: https://kreya.app/blog/
