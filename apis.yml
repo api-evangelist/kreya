@@ -42,6 +42,8 @@ common:
     url: https://github.com/riok/Kreya
   - type: Blog
     url: https://kreya.app/blog/
+  - type: LLMsTxt
+    url: https://kreya.app/llms.txt
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
