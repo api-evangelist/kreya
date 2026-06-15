@@ -8,42 +8,44 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - API Client
-  - Developer Tools
-  - gRPC
-  - REST
+- API Client
+- Developer Tools
+- gRPC
+- REST
 url: >-
   https://raw.githubusercontent.com/api-evangelist/kreya/refs/heads/main/apis.yml
 created: '2026-03-16'
 modified: '2026-04-28'
 specificationVersion: '0.19'
 apis:
-  - aid: kreya:kreya
-    name: Kreya
-    description: >-
-      Kreya is a GUI client for gRPC and REST APIs with innovative features
-      for environments, authorizations, and more.
-    humanURL: https://kreya.app/
-    tags:
-      - API Client
-      - gRPC
-      - REST
-    properties:
-      - type: Documentation
-        url: https://kreya.app/docs/
-      - type: GettingStarted
-        url: https://kreya.app/docs/getting-started/
-common:
-  - type: Website
-    url: https://kreya.app/
+- aid: kreya:kreya
+  name: Kreya
+  description: >-
+    Kreya is a GUI client for gRPC and REST APIs with innovative features
+    for environments, authorizations, and more.
+  humanURL: https://kreya.app/
+  tags:
+  - API Client
+  - gRPC
+  - REST
+  properties:
   - type: Documentation
     url: https://kreya.app/docs/
-  - type: GitHubOrganization
-    url: https://github.com/riok/Kreya
-  - type: Blog
-    url: https://kreya.app/blog/
-  - type: LLMsTxt
-    url: https://kreya.app/llms.txt
+  - type: GettingStarted
+    url: https://kreya.app/docs/getting-started/
+  - url: graphql/kreya-graphql.md
+    type: GraphQL
+common:
+- type: Website
+  url: https://kreya.app/
+- type: Documentation
+  url: https://kreya.app/docs/
+- type: GitHubOrganization
+  url: https://github.com/riok/Kreya
+- type: Blog
+  url: https://kreya.app/blog/
+- type: LLMsTxt
+  url: https://kreya.app/llms.txt
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
