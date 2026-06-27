@@ -44,7 +44,7 @@ common:
   url: https://github.com/riok/Kreya
 - type: Blog
   url: https://kreya.app/blog/
-- type: LLMsTxt
+- type: LlmsText
   url: https://kreya.app/llms.txt
 maintainers:
 - FN: Kin Lane
