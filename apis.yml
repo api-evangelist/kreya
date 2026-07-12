@@ -36,6 +36,8 @@ apis:
   - url: graphql/kreya-graphql.md
     type: GraphQL
 common:
+- type: DomainSecurity
+  url: security/kreya-domain-security.yml
 - type: Website
   url: https://kreya.app/
 - type: Documentation
