@@ -6,7 +6,19 @@ description: >-
   versioning. Kreya provides automated snapshot and scripted tests, flexible
   environments, and support for all gRPC streaming modes.
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kreya.png
 tags:
 - API Client
 - Developer Tools
