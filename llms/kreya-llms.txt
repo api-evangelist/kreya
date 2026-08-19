@@ -1,0 +1,470 @@
+# Kreya
+
+> The cross-platform API testing tool.
+
+- [The API client built for developers](/index.md)
+
+## docs
+
+
+### authentication
+
+Kreya authentication configurations. Define your authentication values once and use them everywhere.
+
+- [Authentication](/docs/authentication.md): Kreya authentication configurations. Define your authentication values once and use them everywhere.
+
+### category
+
+
+#### commands
+
+- [Commands](/docs/category/commands.md)
+
+#### preview-data
+
+- [Preview data](/docs/category/preview-data.md)
+
+#### samples
+
+- [Samples](/docs/category/samples.md)
+
+### cli
+
+Kreya command line interface kreyac.
+
+- [CLI](/docs/cli.md): Kreya command line interface kreyac.
+
+#### commands
+
+
+##### collection
+
+- [collection invoke](/docs/cli/commands/collection/invoke.md): Invokes (runs) a single collection or a set of collections
+
+##### environment
+
+- [environment get-active](/docs/cli/commands/environment/get-active.md): Gets the active environment
+- [environment list](/docs/cli/commands/environment/list.md): Lists all environments
+- [environment set-active](/docs/cli/commands/environment/set-active.md): Sets an environment as the active environment
+
+##### exit-codes
+
+Show exit codes used by kreyac
+
+- [exit-codes](/docs/cli/commands/exit-codes.md): Show exit codes used by kreyac
+
+##### info
+
+Prints information about the app and the project
+
+- [info](/docs/cli/commands/info.md): Prints information about the app and the project
+
+##### operation
+
+- [operation invoke](/docs/cli/commands/operation/invoke.md): Invokes a single operation or a set of operations
+
+##### project
+
+- [project create](/docs/cli/commands/project/create.md): Creates a new project
+
+##### script
+
+- [script invoke](/docs/cli/commands/script/invoke.md): Invokes (runs) a single script or a set of scripts
+
+##### version
+
+Show version information
+
+- [version](/docs/cli/commands/version.md): Show version information
+
+#### global-options
+
+Global CLI options of kreyac
+
+- [Global options - Kreya CLI](/docs/cli/global-options.md): Global CLI options of kreyac
+
+#### integrations
+
+
+##### azure
+
+Using the Kreya CLI (kreyac) with Azure DevOps.
+
+- [Azure DevOps](/docs/cli/integrations/azure.md): Using the Kreya CLI (kreyac) with Azure DevOps.
+
+##### github
+
+Using the Kreya CLI (kreyac) with GitHub Actions.
+
+- [GitHub Actions](/docs/cli/integrations/github.md): Using the Kreya CLI (kreyac) with GitHub Actions.
+
+##### gitlab
+
+Using the Kreya CLI (kreyac) with GitLab CI/CD.
+
+- [GitLab CI/CD](/docs/cli/integrations/gitlab.md): Using the Kreya CLI (kreyac) with GitLab CI/CD.
+
+#### path-globs
+
+Path globbing with kreyac. Automatically expand paths and exclude folders with globs.
+
+- [Path globs](/docs/cli/path-globs.md): Path globbing with kreyac. Automatically expand paths and exclude folders with globs.
+
+### collections
+
+Kreya collections. Organize your operations, run requests sequentially and observe the test results in one place.
+
+- [Collections Pro / Enterprise](/docs/collections.md): Kreya collections. Organize your operations, run requests sequentially and observe the test results in one place.
+
+### configuration
+
+A technical guide on configuring the Kreya application
+
+- [Configuration](/docs/configuration.md): A technical guide on configuring the Kreya application
+
+### default-settings
+
+Define default settings for the whole project or specific directories. These default settings may be overwritten.
+
+- [Default / directory settings](/docs/default-settings.md): Define default settings for the whole project or specific directories. These default settings may be overwritten.
+
+### environments
+
+Kreya environments. Configure different values for different API environments.
+
+- [Environments](/docs/environments.md): Kreya environments. Configure different values for different API environments.
+
+### fake-data
+
+Generate fake but realistic data in Kreya with faker — names, emails, numbers, UUIDs and dates with custom formats and ranges.
+
+- [Generating fake data](/docs/fake-data.md): Generate fake but realistic data in Kreya with faker — names, emails, numbers, UUIDs and dates with custom formats and ranges.
+
+### faq
+
+Frequently asked questions about Kreya
+
+- [Frequently asked questions](/docs/faq.md): Frequently asked questions about Kreya
+
+### getting-started
+
+Get started with Kreya! Follow the steps provided in this documentation.
+
+- [Getting Started](/docs/getting-started.md): Get started with Kreya! Follow the steps provided in this documentation.
+
+### import-from-other-tools
+
+Import existing collections from Postman, Insomnia, HAR files or copied curl / grpcurl commands into Kreya.
+
+- [Importing from other tools](/docs/import-from-other-tools.md): Import existing collections from Postman, Insomnia, HAR files or copied curl / grpcurl commands into Kreya.
+
+### importers
+
+Kreya importers. Import operations and create them automatically.
+
+- [Importers](/docs/importers.md): Kreya importers. Import operations and create them automatically.
+
+#### graphql
+
+Kreya GraphQL importers. Import GraphQL operations from URLs or files.
+
+- [GraphQL importers](/docs/importers/graphql.md): Kreya GraphQL importers. Import GraphQL operations from URLs or files.
+
+#### grpc
+
+Kreya gRPC importers. Import gRPC service metadata with server reflection or local protobuf files.
+
+- [gRPC importers](/docs/importers/grpc.md): Kreya gRPC importers. Import gRPC service metadata with server reflection or local protobuf files.
+
+#### rest
+
+Kreya REST importers. Import REST operations from OpenAPI URLs or files.
+
+- [REST importers](/docs/importers/rest.md): Kreya REST importers. Import REST operations from OpenAPI URLs or files.
+
+### logs
+
+A technical guide on troubleshooting the Kreya application using logs
+
+- [Logs](/docs/logs.md): A technical guide on troubleshooting the Kreya application using logs
+
+### named-pipes
+
+Learn how to use Windows named pipes as endpoints in Kreya.
+
+- [Windows Named Pipes Endpoints](/docs/named-pipes.md): Learn how to use Windows named pipes as endpoints in Kreya.
+
+### operations
+
+Kreya operations. Add, duplicate and remove operations. Add requests to operations.
+
+- [Operations](/docs/operations.md): Kreya operations. Add, duplicate and remove operations. Add requests to operations.
+
+#### graphql
+
+Kreya GraphQL operations. Add, duplicate and remove operations. Execute queries, subscriptions and mutations.
+
+- [GraphQL operations](/docs/operations/graphql.md): Kreya GraphQL operations. Add, duplicate and remove operations. Execute queries, subscriptions and mutations.
+
+#### grpc
+
+Kreya gRPC operations. Add, duplicate and remove operations. Add requests to operations.
+
+- [gRPC operations](/docs/operations/grpc.md): Kreya gRPC operations. Add, duplicate and remove operations. Add requests to operations.
+
+#### rest
+
+Kreya REST operations. Add, duplicate and remove operations. Add requests to operations.
+
+- [REST operations](/docs/operations/rest.md): Kreya REST operations. Add, duplicate and remove operations. Add requests to operations.
+
+#### websocket
+
+Kreya WebSocket operations. Add, duplicate and remove operations. Add requests to operations.
+
+- [WebSocket operations](/docs/operations/websocket.md): Kreya WebSocket operations. Add, duplicate and remove operations. Add requests to operations.
+
+### proxy
+
+Proxy usage with kreya
+
+- [Proxy](/docs/proxy.md): Proxy usage with kreya
+
+### release-notes
+
+Kreya release notes.
+
+- [Release Notes](/docs/release-notes.md): Kreya release notes.
+
+#### alpha
+
+Kreya alpha release notes.
+
+- [Alpha Release Notes](/docs/release-notes/alpha.md): Kreya alpha release notes.
+
+#### beta
+
+Kreya beta release notes.
+
+- [Beta Release Notes](/docs/release-notes/beta.md): Kreya beta release notes.
+
+### scripting-and-tests
+
+Kreya scripting and tests. Define tests via JavaScript and automatically view the results.
+
+- [Scripting and tests Pro / Enterprise](/docs/scripting-and-tests.md): Kreya scripting and tests. Define tests via JavaScript and automatically view the results.
+
+#### general
+
+The general script API reference for Kreya.
+
+- [General script API reference](/docs/scripting-and-tests/general.md): The general script API reference for Kreya.
+
+##### fs-script-api
+
+The file system module API reference for Kreya scripts.
+
+- [FileSystem module reference](/docs/scripting-and-tests/general/fs-script-api.md): The file system module API reference for Kreya scripts.
+
+##### kreya-base-script-api
+
+The base script API reference for Kreya.
+
+- [Kreya base script API reference](/docs/scripting-and-tests/general/kreya-base-script-api.md): The base script API reference for Kreya.
+
+##### path-script-api
+
+The path module API reference for Kreya scripts.
+
+- [Path module reference](/docs/scripting-and-tests/general/path-script-api.md): The path module API reference for Kreya scripts.
+
+#### invoker-scripts
+
+Use Kreya Scripts to fully control the operation execution flow.
+
+- [Scripts Pro / Enterprise](/docs/scripting-and-tests/invoker-scripts.md): Use Kreya Scripts to fully control the operation execution flow.
+
+##### api-reference
+
+The API reference for Kreya scripts.
+
+- [Script API reference](/docs/scripting-and-tests/invoker-scripts/api-reference.md): The API reference for Kreya scripts.
+
+#### operation-scripts
+
+Kreya Operations scripts to run code and define tests in Kreya operations.
+
+- [Operation scripts Pro / Enterprise](/docs/scripting-and-tests/operation-scripts.md): Kreya Operations scripts to run code and define tests in Kreya operations.
+
+##### graphql-script-api-reference
+
+The GraphQL API reference for Kreya operation scripts.
+
+- [GraphQL script API reference](/docs/scripting-and-tests/operation-scripts/graphql-script-api-reference.md): The GraphQL API reference for Kreya operation scripts.
+
+##### grpc-script-api-reference
+
+The gRPC API reference for Kreya operation scripts.
+
+- [gRPC script API reference](/docs/scripting-and-tests/operation-scripts/grpc-script-api-reference.md): The gRPC API reference for Kreya operation scripts.
+
+##### operation-script-api-reference
+
+The API reference for Kreya operation scripts.
+
+- [Operation script API reference](/docs/scripting-and-tests/operation-scripts/operation-script-api-reference.md): The API reference for Kreya operation scripts.
+
+##### rest-script-api-reference
+
+The REST API reference for Kreya operation scripts.
+
+- [REST script API reference](/docs/scripting-and-tests/operation-scripts/rest-script-api-reference.md): The REST API reference for Kreya operation scripts.
+
+##### websocket-script-api-reference
+
+The WebSocket API reference for Kreya operation scripts.
+
+- [WebSocket script API reference](/docs/scripting-and-tests/operation-scripts/websocket-script-api-reference.md): The WebSocket API reference for Kreya operation scripts.
+
+#### previews
+
+Learn how to use Kreya's preview capabilities to visualize and share data effectively.
+
+- [Previewing data Pro / Enterprise](/docs/scripting-and-tests/previews.md): Learn how to use Kreya's preview capabilities to visualize and share data effectively.
+
+#### samples
+
+
+##### data-driven-test
+
+Use Kreya scripts to run the same operation against a table of inputs and automatically assert the responses.
+
+- [Data driven testing Pro / Enterprise](/docs/scripting-and-tests/samples/data-driven-test.md): Use Kreya scripts to run the same operation against a table of inputs and automatically assert the responses.
+
+##### delete-all
+
+Use a Kreya script to delete all entities by looping a list endpoint's data and invoking a delete operation per item.
+
+- [Delete all entities Pro / Enterprise](/docs/scripting-and-tests/samples/delete-all.md): Use a Kreya script to delete all entities by looping a list endpoint's data and invoking a delete operation per item.
+
+##### previews
+
+- [Visualize Data as a chart Pro / Enterprise](/docs/scripting-and-tests/samples/previews/preview_sample_chart.md): Demonstrate how to use Kreya scripting to visualize API data as a chart using Apache ECharts.
+- [Preview PDF streamed via gRPC Pro / Enterprise](/docs/scripting-and-tests/samples/previews/preview_sample_grpc_chunked_pdf.md): Demonstrate how to handle a gRPC streamed chunked PDF response and visualize it using Kreya scripting.
+
+#### tests
+
+Learn how to define, run, and view tests in Kreya.
+
+- [Tests Pro / Enterprise](/docs/scripting-and-tests/tests.md): Learn how to define, run, and view tests in Kreya.
+
+##### scripting-tests
+
+Learn how to write custom test assertions using scripts in Kreya.
+
+- [Scripting tests Pro / Enterprise](/docs/scripting-and-tests/tests/scripting-tests.md): Learn how to write custom test assertions using scripts in Kreya.
+
+##### snapshot-testing
+
+Learn how to use snapshot tests in Kreya to automatically validate API responses.
+
+- [Snapshot tests Pro / Enterprise](/docs/scripting-and-tests/tests/snapshot-testing.md): Learn how to use snapshot tests in Kreya to automatically validate API responses.
+
+### ssl-tls
+
+Disable TLS/SSL server certificate validation or send TLS client certificates
+
+- [SSL / TLS / mTLS](/docs/ssl-tls.md): Disable TLS/SSL server certificate validation or send TLS client certificates
+
+### telemetry
+
+Telemetry data collected by Kreya
+
+- [Telemetry](/docs/telemetry.md): Telemetry data collected by Kreya
+
+### templating
+
+Kreya templating. Use environment values everywhere.
+
+- [Templating](/docs/templating.md): Kreya templating. Use environment values everywhere.
+
+### unix-sockets
+
+Learn how to use Unix sockets as endpoints in Kreya.
+
+- [Unix Sockets Endpoints](/docs/unix-sockets.md): Learn how to use Unix sockets as endpoints in Kreya.
+
+### user-variables
+
+Kreya user variables. Carry state between operations, scripts, collections and templating.
+
+- [User variables Pro / Enterprise](/docs/user-variables.md): Kreya user variables. Carry state between operations, scripts, collections and templating.
+
+## comparisons
+
+
+### bloomrpc
+
+Read on how Kreya is the best BloomRPC alternative.
+
+- [What makes Kreya the best BloomRPC alternative](/comparisons/bloomrpc.md): Read on how Kreya is the best BloomRPC alternative.
+
+### bruno
+
+Read on how Kreya is the best Bruno alternative.
+
+- [What makes Kreya a good Bruno alternative](/comparisons/bruno.md): Read on how Kreya is the best Bruno alternative.
+
+### insomnia
+
+Read on how Kreya is the best Insomnia alternative.
+
+- [What makes Kreya a good Insomnia alternative](/comparisons/insomnia.md): Read on how Kreya is the best Insomnia alternative.
+
+### postman
+
+Read on how Kreya is the best Postman alternative.
+
+- [What makes Kreya a good Postman alternative](/comparisons/postman.md): Read on how Kreya is the best Postman alternative.
+
+### soapui
+
+Read on how Kreya is the best SoapUI alternative.
+
+- [What makes Kreya a good SoapUI alternative](/comparisons/soapui.md): Read on how Kreya is the best SoapUI alternative.
+
+### swaggerui
+
+Read on how Kreya is the best Swagger UI alternative for API testing.
+
+- [What makes Kreya a good Swagger UI alternative for API testing](/comparisons/swaggerui.md): Read on how Kreya is the best Swagger UI alternative for API testing.
+
+## downloads
+
+The ultimate API client. Download Kreya here.
+
+- [Download Kreya](/downloads.md): The ultimate API client. Download Kreya here.
+
+## pricing
+
+Kreya offers a free forever plan and affordable Pro & Enterprise plans. Compare features, pricing, and find the perfect API testing solution for developers, QA engineers, and teams.
+
+- [Simple, Transparent Pricing](/pricing.md): Kreya offers a free forever plan and affordable Pro & Enterprise plans. Compare features, pricing, and find the perfect API testing solution for developers, QA engineers, and teams.
+
+## privacy-policy
+
+The Privacy policy of Kreya
+
+- [Privacy policy](/privacy-policy.md): The Privacy policy of Kreya
+
+## resources
+
+Explore Kreya: API testing tutorials, guides, and more
+
+- [Kreya Resources](/resources.md): Explore Kreya: API testing tutorials, guides, and more
+
+## terms
+
+The Terms of Service of Kreya
+
+- [Terms of Service](/terms.md): The Terms of Service of Kreya
