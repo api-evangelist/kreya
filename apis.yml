@@ -56,8 +56,6 @@ apis:
     url: https://kreya.app/docs/
   - type: GettingStarted
     url: https://kreya.app/docs/getting-started/
-  - url: graphql/kreya-graphql.md
-    type: GraphQL
 common:
 - type: DomainSecurity
   url: security/kreya-domain-security.yml
